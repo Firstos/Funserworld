@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background: #0f0f14;
+    font-family: Arial;
+    color: white;
+}
+
+.main-box {
+    width: 400px;
+    height: 120px;
+    margin: 50px auto;
+    background: #1b1b25;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.avatar-circle {
+    width: 80px;
+    height: 80px;
+    background: #2a2a3a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.avatar-circle span {
+    font-size: 30px;
+}
+
+.nickname {
+    margin-left: 20px;
+    height: 40px;
+    flex: 1;
+    border-radius: 10px;
+    border: none;
+    padding: 0 10px;
+}
+
+.second-box {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.second-box button {
+    margin: 10px;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: none;
+    background: #3a3aff;
+    color: white;
+    font-size: 16px;
+}
